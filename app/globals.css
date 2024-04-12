@@ -7,10 +7,11 @@
   font-family: "DM Sans", sans-serif !important;
   transform-style: preserve-3d;
   font-weight: 500;
+  scroll-behavior: smooth !important;
 }
 
 body {
-  height: 500vh;
+  /* height: 1500vh; */
 }
 
 @layer base {
@@ -79,21 +80,31 @@ body {
 
 @layer components {
   .container {
-    width: 100%;
-    max-width: 1720px;
-    margin: auto;
-    @apply lg:px-12 md:px-8 px-5;
+    @apply lg:px-12 md:px-8 px-5 max-w-[1720px] w-full mx-auto;
+  }
+
+  .container-chains {
+    @apply lg:px-12 md:px-8 px-0 max-w-full mx-auto w-full;
   }
 }
 
+
 @layer utilities {
   .section {
-    margin-top: 104px;
-    padding-top: 56px;
+    @apply md:mt-[104px] md:pt-14 pt-10 mt-[80px]
   }
 
   .height-links {
     height: calc(100vh - 92px)
+  }
+
+  .gradient {
+    -webkit-mask: linear-gradient(90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   }
 }
 

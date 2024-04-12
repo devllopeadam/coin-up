@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -51,16 +52,26 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "grey3": "#fafafa",
+        "grey5": "#f3f3f3",
+        "grey20": "#cfcfcf",
+        "grey10": "#e7e7e7",
+        "grey50": "#878787",
         "grey75": "#4b4b4b",
         "grey85": "#333",
+        "grey90": "#272727",
         "orange": "#fdbc45",
         "pink": "#ffc5f6",
         "green": "#4ceb9f",
         "light-green": "#77e3af",
+        "greeno15": "rgba(76, 235, 159, .15)",
         "blue": "#92fcff",
+        "whiteo7": "rgba(255, 255, 255, .07)",
+        "white3": "rgba(255, 255, 255, .03)",
+        "white7": "rgba(255, 255, 255, .07)"
       },
       backgroundImage: {
-        "coin": "url(src/assets/patterns/Coin_Pattern.svg)"
+        "coin": "url(src/assets/patterns/Coin_Pattern.svg)",
       },
       borderRadius: {
         lg: "var(--radius)",
