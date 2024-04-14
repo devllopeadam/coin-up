@@ -22,7 +22,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-[4fr_5fr] grid-rows-[auto] gap-[80px] lg:gap-[138px] items-center">
             <div
               ref={ref}
-              className="rounded-[20px] bg-orange bg-coin bg-[0_0] bg-[length:40px_40px] overflow-hidden h-[465px] relative">
+              className="rounded-[20px] bg-orange coin bg-[0_0] bg-[length:40px_40px] overflow-hidden h-[465px] relative">
               <motion.img
                 loading="lazy"
                 variants={{

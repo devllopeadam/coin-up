@@ -70,9 +70,6 @@ module.exports = {
         "white3": "rgba(255, 255, 255, .03)",
         "white7": "rgba(255, 255, 255, .07)"
       },
-      backgroundImage: {
-        "coin": "url(src/assets/patterns/Coin_Pattern.svg)",
-      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

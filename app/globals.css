@@ -10,9 +10,6 @@
   scroll-behavior: smooth !important;
 }
 
-body {
-  /* height: 1500vh; */
-}
 
 @layer base {
   :root {
@@ -105,6 +102,10 @@ body {
         white 80%,
         transparent);
     mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  }
+
+  .coin {
+    background-image: url(../src/assets/patterns//Coin_Pattern.svg);
   }
 }
 

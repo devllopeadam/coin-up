@@ -85,7 +85,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="bg-coin p-5 h-[9rem] w-full -z-[1] absolute bg-orange bg-[length:44px] bg-[50%] bottom-0 left-0 right-0"></div>
+        <div className="coin p-5 h-[9rem] w-full -z-[1] absolute bg-orange bg-[length:44px] bg-[50%] bottom-0 left-0 right-0"></div>
       </div>
     </div>
   );
